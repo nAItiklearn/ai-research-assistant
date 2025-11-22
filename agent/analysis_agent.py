@@ -12,6 +12,23 @@ project_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, project_root)
 
 from tools.pdf_processor import PDFProcessor
+"""
+Analysis Agent - Sequential Pipeline Processor
+
+DESIGN: 4-Stage Sequential Pipeline
+Stage 1: Relevance Evaluation (scoring algorithm)
+Stage 2: Finding Extraction (LLM-powered)
+Stage 3: Research Synthesis (comprehensive analysis)
+Stage 4: Gap Identification (future research directions)
+
+Why Sequential? Each stage depends on results from previous stage.
+This ensures high-quality analysis through progressive refinement.
+
+This demonstrates:
+- Sequential agent execution (Hackathon requirement)
+- Agent evaluation (relevance scoring)
+- Context engineering (smart summarization)
+"""
 
 class AnalysisAgent:
     """

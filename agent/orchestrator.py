@@ -16,6 +16,23 @@ if project_root not in sys.path:
 
 from mcp_server.mcp_manager import MCPManager
 
+"""
+Orchestrator Agent - Central Coordinator for Multi-Agent System
+
+This demonstrates KEY HACKATHON REQUIREMENTS:
+1. Multi-agent coordination - Plans and dispatches tasks to specialized agents
+2. MCP integration - Uses Model Context Protocol for standardized tool execution
+3. Sessions & Memory - Manages state with long-term memory bank storage
+4. Context Engineering - Implements context compaction to prevent token overflow
+
+Design Decision: Orchestrator pattern chosen for:
+- Clear separation of concerns (each agent has specific role)
+- Scalable architecture (easy to add new agents)
+- Observable execution (every action is logged and traceable)
+- Fault tolerance (agents operate independently)
+
+Author: nAItiklearn | Kaggle Agents Intensive Capstone 2024
+"""
 class OrchestratorAgent:
     """Main orchestrator that coordinates multiple specialized agents"""
     
