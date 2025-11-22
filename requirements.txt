@@ -1,0 +1,35 @@
+# Core AI SDK - NEW OFFICIAL PACKAGE
+google-genai>=1.0.0
+
+# Web Framework
+streamlit>=1.39.0
+
+# Environment & Config
+python-dotenv>=1.0.0
+
+# HTTP Requests
+requests>=2.32.0
+
+# Data Processing
+beautifulsoup4>=4.12.0
+lxml>=5.0.0
+
+# PDF Processing
+PyPDF2>=3.0.0
+
+# Academic Search
+arxiv>=2.1.0
+feedparser>=6.0.11
+
+# Data Handling
+pandas>=2.2.0
+
+# Visualization
+plotly>=5.24.0
+
+# Observability
+loguru>=0.7.2
+
+# NO chromadb - causes issues with Python 3.13
+# NO sqlite-utils - not needed
+# NO mcp packages - we'll implement ourselves
