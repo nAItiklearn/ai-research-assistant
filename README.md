@@ -9,8 +9,7 @@
 
 **An intelligent multi-agent system that automates academic research using AI orchestration, parallel search, and sequential analysis.**
 
-[📖 Documentation](WRITEUP.md) | [🚀 Quick Start](#installation) | [🎥 Demo Video](#demo)
-
+**🔗 [Live Project](https://github.com/nAItiklearn/ai-research-assistant)** | [📖 Documentation](WRITEUP.md) | [🚀 Quick Start](#installation) | [🎥 Demo Video](#demo)
 </div>
 
 ---
@@ -442,13 +441,13 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - LinkedIn: www.linkedin.com/in/naitik181818
 - Email: naiitik1526@gmail.com
 
-**Project Link:** https://github.com/yourusername/research-assistant-agent
+**Project Link:** https://github.com/nAItiklearn/ai-research-assistant
 
 ---
 
 <div align="center">
 
-**Built with ❤️ for the Kaggle Agents Intensive Capstone 2024**
+**Built with ❤️ for the Kaggle Agents Intensive Capstone 2025**
 
 ⭐ Star this repo if you find it helpful!
 

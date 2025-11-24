@@ -1,9 +1,9 @@
 # AI Research Assistant - Project Writeup
 
-**Kaggle Agents Intensive Capstone 2024**  
+**Kaggle Agents Intensive Capstone 2025**  
 **Track:** Education, Healthcare & Sustainability  
 **Author:**  Naitik Sahu  
-**Date:** November 2024
+**Date:** November 2025
 
 ---
 
@@ -923,5 +923,5 @@ Academic research should be accessible to everyone. With AI agents, we're one st
 
 ---
 
-**Kaggle Agents Intensive Capstone 2024**  
+**Kaggle Agents Intensive Capstone 2025**  
 **Thank you to Google, Kaggle, and all the organizers!**

@@ -305,6 +305,6 @@ st.markdown("---")
 st.markdown("""
 <div style="text-align: center; color: #666; padding: 1rem;">
     <p>🤖 Multi-Agent Research Assistant | Built with Streamlit & Google Gemini</p>
-    <p><strong>Kaggle Agents Intensive Capstone 2024</strong></p>
+    <p><strong>Kaggle Agents Intensive Capstone 2025</strong></p>
 </div>
 """, unsafe_allow_html=True)

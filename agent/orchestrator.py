@@ -31,7 +31,7 @@ Design Decision: Orchestrator pattern chosen for:
 - Observable execution (every action is logged and traceable)
 - Fault tolerance (agents operate independently)
 
-Author: nAItiklearn | Kaggle Agents Intensive Capstone 2024
+Author: nAItiklearn | Kaggle Agents Intensive Capstone 2025
 """
 class OrchestratorAgent:
     """Main orchestrator that coordinates multiple specialized agents"""
