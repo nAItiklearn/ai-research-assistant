@@ -157,8 +157,11 @@ Our intelligent assistant:
 
 ### 🎬 Demo Video
 
-**Coming Soon:** 3-minute walkthrough demonstrating the complete research workflow
+[![Watch Demo]](<video controls src="Untitled video - Made with Clipchamp-1.mp4" title="Title"></video>)
 
+**[▶️ Watch 3-Minute Demo on YouTube](https://www.youtube.com/watch?v=mKorBTm4WG8)**
+
+*Demonstrates the complete research workflow: problem statement, multi-agent architecture, live demo, and results.*
 ---
 
 ---
