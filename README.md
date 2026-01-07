@@ -9,6 +9,7 @@
 
 **An intelligent multi-agent system that automates academic research using AI orchestration, parallel search, and sequential analysis.**
 
+**🌐[Try Live Demo](https://multi-agent-assist.streamlit.app/)** | 
 **🔗 [Live Project](https://github.com/nAItiklearn/ai-research-assistant)** | [📖 Documentation](WRITEUP.md) | [🚀 Quick Start](#installation) | [🎥 Demo Video](#demo)
 </div>
 

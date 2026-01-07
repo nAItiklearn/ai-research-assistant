@@ -6,6 +6,26 @@ import sys
 import os
 from datetime import datetime
 import time
+# Simple rate limiting for deployed app
+if 'last_search_time' not in st.session_state:
+    st.session_state.last_search_time = 0
+    st.session_state.search_count = 0
+
+def check_rate_limit():
+    """Prevent API abuse on deployed app"""
+    current_time = time.time()
+    
+    # Reset counter every hour
+    if current_time - st.session_state.last_search_time > 3600:
+        st.session_state.search_count = 0
+    
+    # Max 10 searches per hour
+    if st.session_state.search_count >= 10:
+        return False
+    
+    st.session_state.search_count += 1
+    st.session_state.last_search_time = current_time
+    return True
 
 # Add parent directory to path
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
@@ -139,6 +159,8 @@ with col2:
 if st.button("🚀 Start Research", type="primary", use_container_width=True):
     if not research_query:
         st.warning("Please enter a research question!")
+    elif not check_rate_limit():
+        st.error("⏰ Rate limit reached. Please try again in an hour. (This prevents API abuse on the free demo)")
     else:
         # Progress tracking
         progress_bar = st.progress(0)
