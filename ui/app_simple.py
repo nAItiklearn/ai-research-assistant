@@ -11,12 +11,21 @@ import time
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from dotenv import load_dotenv
+# Load environment variables
+# In production (Streamlit Cloud), use st.secrets
+# Locally, use .env file
+try:
+    # Try Streamlit secrets first (for deployed app)
+    if hasattr(st, 'secrets'):
+        os.environ['GOOGLE_API_KEY'] = st.secrets.get("GOOGLE_API_KEY", "")
+        os.environ['SERPER_API_KEY'] = st.secrets.get("SERPER_API_KEY", "")
+except:
+    # Fall back to .env file (for local development)
+    load_dotenv()
 from agent.orchestrator import OrchestratorAgent
 from agent.search_agent import SearchAgent
 from agent.analysis_agent import AnalysisAgent
 from observability.logger import observability
-
-load_dotenv()
 
 # Page config
 st.set_page_config(

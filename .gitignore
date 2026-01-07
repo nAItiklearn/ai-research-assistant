@@ -43,3 +43,4 @@ htmlcov/
 
 # Streamlit
 .streamlit/secrets.toml
+.streamlit/
